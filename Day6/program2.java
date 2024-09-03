@@ -10,9 +10,7 @@ class Codex{
         }else if(percentage<=70 && percentage>60){
             System.out.println("D Grade");
         }else{
-            if(percentage<100 && percentage>=90){
-                System.out.println("Fail");
-            }
+            System.out.println("Fail");
         }
     }
 }
